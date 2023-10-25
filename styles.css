@@ -1,0 +1,10 @@
+.logo-text {
+    font-size: 24px;
+}
+
+header, .hero {
+    background-color: #1F2937;
+}
+.main-text, secondary-text {
+    color: #F9FAF8;
+}
