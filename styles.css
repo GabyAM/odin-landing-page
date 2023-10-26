@@ -90,7 +90,7 @@ main {
 .information {
     margin: 20px auto;
     width: 800px;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -127,10 +127,29 @@ main {
 
 .quote {
     background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.quote-container {
+    width: 650px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-text {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    display: flex;
+    align-self: flex-start;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 900;
+    display: flex;
+    align-self: flex-end;
 }
