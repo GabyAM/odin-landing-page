@@ -15,7 +15,7 @@ body {
     margin-right: auto;
 }
 
-header, .hero {
+header, .hero, footer {
     background-color: #1F2937;
 }
 
@@ -177,4 +177,11 @@ main {
     border: 2px solid white;
     background-color: #3882F6;
     color: white
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
